@@ -109,3 +109,18 @@ a:visited {
 #coupon a,img {
   border: none;
 }
+#coupon:hover{
+  position: fixed;
+  top: 350px;
+  left: -220px;
+  animation: 2s coupon linear;
+  animation-fill-mode: forwards;
+}
+@keyframes coupon{
+  from{left: -220px;}
+  10%{left: -200px;}
+  20%{left: -180px;}
+  30%{left: -160px;}
+  50%{left:-120px}
+  to{left: -20px;}
+}
