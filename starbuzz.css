@@ -104,7 +104,7 @@ a:visited {
 #coupon {
   position: fixed;
   top: 350px;
-  left:-90px;
+  left:-210px;
 }
 #coupon a,img {
   border: none;
